@@ -1,0 +1,16 @@
+{
+  "name": "zhaoha",
+  "version": "1.0.0",
+  "description": "爪哈の源泉",
+  "main": "index.js",
+  "repository": "https://github.com/lemonnuu/zhaoha.git",
+  "author": "爪哈",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs"
+  },
+  "devDependencies": {
+    "vuepress": "^1.9.7",
+    "vuepress-theme-reco": "^1.6.11"
+  }
+}
