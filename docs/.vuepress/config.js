@@ -17,12 +17,17 @@ module.exports = {
     authorAvatar: '/assets/logo.gif',
     type: 'blog', // 博客类型(非默认)
     startYear: '2022', // 项目开始时间
-    // lastUpdated: 'Last Updated', // 上次更新时间 - 需要插件 @vuepress/plugin-last-updated
-    // repo: 'https://github.com/lemonnuu/zhaoha', // 仓库链接, 会放在 nav 的最右侧(其实也可以不放仓库，弄个外链也可以的)
+    lastUpdated: 'Last Updated', // 上次更新时间 - 必须和 git 绑定, 是根据 git 提交时间绑定的
+    repo: 'https://github.com/lemonnuu/zhaoha', // 仓库链接, 会放在 nav 的最右侧(其实也可以不放仓库，弄个外链也可以的)
+    // repo: 'https://www.baidu.com/', // 仓库链接, 会放在 nav 的最右侧(其实也可以不放仓库，弄个外链也可以的)
     // repoLabel: '查看源码', // 仓库名字, 不填默认为 github 图标 + GitHub
-    editLinks: true, // 是否可编辑
+    editLinks: true, // 是否可编辑, 必须有 repo 才会显示
+    // docsRepo: 'zhaoha', // 编辑的其他配置, 假如文档仓库和项目仓库不在一个仓库
+    docsDir: 'docs', // 编辑的其他配置, 假如文档不是放在仓库的根目录下
+    // docsBranch: 'master', // 编辑的其他配置, 假如文档放在一个特定的分支下
     // editLinkText: '帮助我们改善此页面！', // 编辑的文字, 默认为 Edit this page
     smoothScroll: true, // 平滑滚动效果
+    noFoundPageByTencent: true, // 404 腾讯公益界面是否打开
     blogConfig: { // 博客配置
       socialLinks: [ // 信息栏展示社交信息
         { icon: 'reco-github', link: 'https://github.com/lemonnuu/zhaoha' },
