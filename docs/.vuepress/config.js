@@ -5,6 +5,7 @@ const plugins = require('./config/plugins/index')
 module.exports = {
   title: '爪哈の源泉',
   description: '愿你眼里长着太阳，笑里全是坦荡',
+  base: '/zhaoha/',
   head: [
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }], // 移动端优化
   ],
