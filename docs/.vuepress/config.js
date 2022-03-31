@@ -29,18 +29,26 @@ module.exports = {
     // editLinkText: '帮助我们改善此页面！', // 编辑的文字, 默认为 Edit this page
     smoothScroll: true, // 平滑滚动效果
     noFoundPageByTencent: true, // 404 腾讯公益界面是否打开
+    // record: 'ICP 备案文案',
+    // recordLink: 'ICP 备案指向链接',
+    // cyberSecurityRecord: '公安部备案文案',
+    // cyberSecurityLink: '公安部备案指向链接',
     blogConfig: { // 博客配置
       socialLinks: [ // 信息栏展示社交信息
         { icon: 'reco-github', link: 'https://github.com/lemonnuu/zhaoha' },
-        { icon: 'reco-bilibili', link: 'https://space.bilibili.com/650511936?spm_id_from=333.1007.0.0' }
+        { icon: 'reco-bilibili', link: 'https://space.bilibili.com/650511936?spm_id_from=333.1007.0.0' },
+        { icon: 'reco-juejin', link: 'https://juejin.cn/user/3922674154473816' },
+        { icon: 'reco-zhihu', link: 'https://www.zhihu.com/people/tang-cu-lao-pai-gu-45' },
+        { icon: 'reco-sf', link: 'https://segmentfault.com/u/zhao_ha' }
+        
       ]
     },
     friendLink: [ // 友链
       {
-        title: '午后南杂',
-        desc: 'Enjoy when you can, and endure when you must.',
-        email: '1156743527@qq.com',
-        link: 'https://www.recoluan.com'
+        title: 'vuepress',
+        desc: 'A minimalist static website generator.',
+        avatar: "/assets/vuelogo.png",
+        link: 'https://vuepress.vuejs.org/zh/'
       },
       {
         title: 'vuepress-theme-reco',
