@@ -1,9 +1,7 @@
 ---
 title: 测试的title-newVue
 author: 爪哈
-date: 2022-4-2
-categories:
-- frontend
+date: 2022-3-2
 tags:
 - vuepress
 ---

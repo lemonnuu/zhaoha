@@ -68,7 +68,8 @@ module.exports = {
     //   keys: ['e10adc3949ba59abbe56e057f20f883e', 'c33367701511b4f6020ec61ded352059'], // 可以是多个密码, 但需要是 md5 密文, 希望有开源精神！(123456, 654321)
     //   color: '#42b983', // 登录页动画球的颜色
     //   lineColor: '#42b983' // 登录页动画线的颜色
-    // }
+    // },
+    noFoundPageByTencent: false
   },
   plugins,
 }

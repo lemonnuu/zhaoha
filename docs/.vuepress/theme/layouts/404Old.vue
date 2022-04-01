@@ -2,10 +2,9 @@
   <section class="theme-container" v-if="!noFoundPageByTencent">
     <article class="content">
       <h1>404</h1>
-      <!-- <blockquote>{{ getMsg() }}</blockquote> -->
-      <router-link to="/">回到首页</router-link>
+      <blockquote>{{ getMsg() }}</blockquote>
+      <router-link to="/">Take me home.</router-link>
     </article>
-    <aside class="background"></aside>
   </section>
 </template>
 
@@ -48,9 +47,9 @@ export default defineComponent({
 })
 </script>
 
-<style src="../styles/theme.styl" lang="stylus" scoped></style>
+<style src="../styles/theme.styl" lang="stylus"></style>
 
-<style lang="stylus" scoped>
+<style lang="stylus">
 .content
   margin 4rem auto 0
   max-width 800px
@@ -73,15 +72,5 @@ export default defineComponent({
     .wrapper
       margin 0!important
       padding-top 20px
-
-.background
-  position: fixed
-  top: 0
-  left: 0
-  width: 100vw
-  height: 100vh
-  background: url('https://cdn.jsdelivr.net/gh/lemonnuu/PicGoPictureBed/wallpaper/女孩蓝色眼睛深色头发.jpg')
-  background-size: cover
-  z-index: -9999999999
 </style>
 

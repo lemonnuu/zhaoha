@@ -1,9 +1,7 @@
 ---
 title: 测试的title-createComponent
 author: 爪哈
-date: 2022-4-1
-categories:
-- frontend
+date: 2022-03-4
 tags:
 - vuepress
 ---

@@ -2,8 +2,6 @@
 title: 认识 Flow
 author: 爪哈
 date: 2022-3-29
-categories:
-- frontend
 tags:
 - vuepress
 ---

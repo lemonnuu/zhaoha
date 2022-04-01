@@ -2,8 +2,6 @@
 title: 测试的title-数据驱动
 author: 爪哈
 date: 2022-3-30
-categories:
-- frontend
 tags:
 - vuepress
 ---

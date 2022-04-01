@@ -4,7 +4,7 @@ module.exports = [
     text: '博客',
     icon: 'reco-document',
     items: [
-      {text: '分类', link: '/categories/frontEnd/', icon: 'reco-category'},
+      {text: '分类', link: '/categories/vue/', icon: 'reco-category'},
       {text: '标签', link: '/tag/', icon: 'reco-tag'}
     ]
   },
@@ -25,8 +25,7 @@ module.exports = [
       {
         text: '前端框架',
         items: [
-          {text: 'vue2', link: '/none99/', icon: 'reco-document'},
-          {text: 'vue3', link: '/none4/', icon: 'reco-document'},
+          {text: 'vue', link: '/vueuse/basic/', icon: 'reco-document'},
           {text: 'react', link: '/none5/', icon: 'reco-document'},
         ]
       },
