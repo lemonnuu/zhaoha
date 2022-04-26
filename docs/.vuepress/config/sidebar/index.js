@@ -1,4 +1,5 @@
 const vueUseSidebar = require('./vueUseSidebar')
+const webpackSidebar = require('./webpackSidebar')
 module.exports = {
   '/vuepressDoc/': [
     {
@@ -26,5 +27,6 @@ module.exports = {
       ]
     }
   ],
-  '/vueuse/': vueUseSidebar
+  '/vueuse/': vueUseSidebar,
+  '/webpack/': webpackSidebar,
 }

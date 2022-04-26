@@ -33,7 +33,7 @@ module.exports = [
         text: '前端工程化&&工具',
         items: [
           {text: '模块化', link: '/none6/', icon: 'reco-document'},
-          {text: 'webpack', link: '/none7/', icon: 'reco-document'},
+          {text: 'webpack', link: '/webpack/01-basic/001_introduce', icon: 'reco-document'},
         ]
       },
     ]
