@@ -6,6 +6,7 @@ module.exports = [
       ['basic/', 'Introduction'],
       ['basic/example', '(应用 & 组件实例) PK (Vue实例)'],
       ['basic/lifecycle', '生命周期'],
+      ['basic/templateSyntax', '模板语法'],
     ]
   },
 ]
