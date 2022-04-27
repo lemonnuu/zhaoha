@@ -2,8 +2,6 @@
 title: 测试的title
 author: 麻瓜
 date: 2022-3-28
-tags:
-- vuepress
 ---
 
 # 准备工作

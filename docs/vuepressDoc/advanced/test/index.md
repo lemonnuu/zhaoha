@@ -2,8 +2,6 @@
 title: 测试的title-组件化
 author: 爪哈
 date: 2022-3-31
-tags:
-- vuepress
 ---
 
 # 组件化

@@ -4,7 +4,7 @@ module.exports = [
     text: '博客',
     icon: 'reco-document',
     items: [
-      {text: '分类', link: '/categories/vue/', icon: 'reco-category'},
+      {text: '分类', link: '/categories/随笔/', icon: 'reco-category'},
       {text: '标签', link: '/tag/', icon: 'reco-tag'}
     ]
   },

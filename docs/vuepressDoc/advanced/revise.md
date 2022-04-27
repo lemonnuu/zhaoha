@@ -2,8 +2,6 @@
 title: 测试的title-newVue
 author: 爪哈
 date: 2022-3-2
-tags:
-- vuepress
 ---
 
 # new Vue 发生了什么

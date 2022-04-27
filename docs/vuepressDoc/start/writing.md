@@ -2,8 +2,6 @@
 title: 认识 Flow
 author: 爪哈
 date: 2022-3-29
-tags:
-- vuepress
 ---
 
 [Flow](https://flow.org/en/docs/getting-started/) 是 facebook 出品的 JavaScript 静态类型检查工具。Vue.js 的源码利用了 Flow 做了静态类型检查，所以了解 Flow 有助于我们阅读源码。

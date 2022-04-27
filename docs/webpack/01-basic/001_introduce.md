@@ -149,6 +149,7 @@ new Content()
 - `header.js`
 ```js
 function Header () {
+	var root = document.getElementById('root')
   var header = document.createElement('div')
   header.innerText = 'header'
   root.append(header)
@@ -159,6 +160,7 @@ export default Header
 - `sidebar.js`
 ```js
 function Sidebar () {
+	var root = document.getElementById('root')
   var sidebar = document.createElement('div')
   sidebar.innerText = 'sidebar'
   root.append(sidebar)
@@ -169,6 +171,7 @@ export default Sidebar
 - `content.js`
 ```js
 function Content () {
+	var root = document.getElementById('root')
   var content = document.createElement('div')
   content.innerText = 'content'
   root.append(content)
@@ -181,8 +184,6 @@ export default Content
 import Header from "./header"
 import Sidebar from "./sidebar"
 import Content from "./content"
-
-var root = document.getElementById('root')
 
 new Header()
 new Sidebar()
@@ -221,6 +222,6 @@ new Content()
 webpack is a module bundler. (webpack 是一个静态模块打包工具)
 :::
 
-本质上，webpack 是一个用于现代 JavaScript 应用程序的 静态模块打包工具。
-当 webpack 处理应用程序时，它会在内部从一个或多个入口点构建一个 依赖图(dependency graph)，
+本质上，[webpack](https://webpack.docschina.org/concepts/) 是一个用于现代 JavaScript 应用程序的静态模块打包工具。
+当 webpack 处理应用程序时，它会在内部从一个或多个入口点构建一个依赖图(dependency graph)，
 然后将你项目中所需的每一个模块组合成一个或多个 bundles，它们均为静态资源，用于展示你的内容。

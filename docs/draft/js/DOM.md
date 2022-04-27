@@ -2,6 +2,10 @@
 title: DOM 草稿
 author: 爪哈
 date: 2022-4-6
+categories:
+- 草稿
+tags:
+- HTML
 ---
 
 DOM 表示由多层节点构成的文档, 通过它开发者可以添加、删除和修改页面的各个部分。
