@@ -4,6 +4,8 @@ author: 爪哈
 date: 2022-4-27
 ---
 
+![0004-webpack官网图](https://cdn.jsdelivr.net/gh/lemonnuu/PicGoPictureBed/markdown/webpack/0004-webpack官网图.png)
+
 ## 安装 node.js
 
 webpack 是基于 node.js 开发的, 首先咱们先安装一下 [node.js](https://nodejs.org/en/)。
@@ -74,14 +76,15 @@ npm install webpack webpack-cli -D
 npx webpack -v
 ```
 
-可用以下命令查看 webpack 的一些信息
+可用以下命令查看 webpack 的一些信息或所有版本
 
-```
-npm info webpack
+```shell
+npm info webpack                   # 查看信息
+npm view webpack versions          # 查看所有版本
 ```
 
 可以用类似以下命令安装某一特定版本的 webpack
 
-```
+```shell
 npm install webpack@4.46.0 webpack-cli -D
 ```

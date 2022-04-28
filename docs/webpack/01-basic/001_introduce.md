@@ -4,6 +4,8 @@ author: 爪哈
 date: 2022-04-26
 ---
 
+![0004-webpack官网图](https://cdn.jsdelivr.net/gh/lemonnuu/PicGoPictureBed/markdown/webpack/0004-webpack官网图.png)
+
 ## webpack 出现的背景
 
 ### "远古时期"
