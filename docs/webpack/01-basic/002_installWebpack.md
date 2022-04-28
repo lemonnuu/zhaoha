@@ -34,7 +34,7 @@ npm install webpack webpack-cli -g
 ```
 
 :::warning
-webpack CLI 为开发人员提供了一组灵活的命令，以在设置自定义 webpack 项目时提高速度。
+webpack CLI(命令行工具) 为开发人员提供了一组灵活的命令，以在设置自定义 webpack 项目时提高速度。
 从 webpack v4 开始，webpack 不需要配置文件，但开发人员通常希望根据他们的用例和需求创建更自定义的 webpack 配置。
 webpack CLI 通过提供一组工具来改进自定义 webpack 配置的设置来满足这些需求。
 :::
@@ -68,7 +68,7 @@ npm uninstall webpack webpack-cli -g
 npm install webpack webpack-cli -D
 ```
 
-需要注意的是, 局部安装 webpack 在终端是没有 `webpack` 指令的, 但可以借助 [npx](/essay/node/001_npx) 来帮助我们运行 webpack 指令 :smirk: :smirk: :smirk:
+需要注意的是, 局部安装 webpack 在终端是没有 `webpack` 指令的, 但可以借助 [npx](/essay/node/002_npx) 来帮助我们运行 webpack 指令 :smirk: :smirk: :smirk:
 
 ```shell
 npx webpack -v
