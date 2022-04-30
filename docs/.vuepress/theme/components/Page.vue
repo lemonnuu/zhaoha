@@ -246,6 +246,7 @@ function flatten (items, res) {
   padding-bottom 2rem
   padding-right 14rem
   display block
+  background-color var(--page-color)
   .side-bar
     position fixed
     top 8rem

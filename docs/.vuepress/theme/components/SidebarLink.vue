@@ -75,7 +75,7 @@ a.sidebar-link
   color var(--text-color)
   padding 0.35rem 1rem 0.35rem 2.25rem
   line-height 1.7
-  background var(--background-color)
+  background var(--page-color)
   // margin 0 0 0 1.5rem
   box-sizing: border-box
   &:hover

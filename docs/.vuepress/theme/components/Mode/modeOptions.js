@@ -11,6 +11,7 @@ const modeOptions = {
     '--default-color-2': 'rgba(255, 255, 255, .2)',
     '--default-color-1': 'rgba(255, 255, 255, .1)',
     '--background-color': '#fff',
+    '--page-color': '#f7f2e8',
     '--box-shadow': '0 1px 8px 0 rgba(0, 0, 0, 0.1)',
     '--box-shadow-hover': '0 2px 16px 0 rgba(0, 0, 0, 0.2)',
     '--text-color': '#242424',
@@ -18,7 +19,7 @@ const modeOptions = {
     '--border-color': '#eaecef',
     '--code-color': 'rgba(27, 31, 35, 0.05)',
     '--mask-color': '#888'
-  },
+  }, 
   dark: {
     '--default-color-10': 'rgba(0, 0, 0, 1)',
     '--default-color-9': 'rgba(0, 0, 0, .9)',
@@ -31,6 +32,7 @@ const modeOptions = {
     '--default-color-2': 'rgba(0, 0, 0, .2)',
     '--default-color-1': 'rgba(0, 0, 0, .1)',
     '--background-color': '#181818',
+    '--page-color': '#181818',
     '--box-shadow': '0 1px 8px 0 rgba(0, 0, 0, .6)',
     '--box-shadow-hover': '0 2px 16px 0 rgba(0, 0, 0, .7)',
     '--text-color': 'rgba(255, 255, 255, .8)',

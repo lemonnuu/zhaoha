@@ -76,7 +76,7 @@ export default defineComponent({
 
 <style lang="stylus">
 .sidebar-group
-  background var(--background-color)
+  background var(--page-color)
   .sidebar-group
     padding-left 0.5em
   &:not(.collapsable)

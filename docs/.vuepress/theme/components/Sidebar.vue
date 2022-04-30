@@ -21,6 +21,7 @@ export default defineComponent({
 
 <style lang="stylus">
 .sidebar
+  background-color var(--page-color) !important
   &&::-webkit-scrollbar
     width: 0
     height: 0
