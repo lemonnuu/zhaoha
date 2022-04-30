@@ -27,7 +27,7 @@ module.exports = [
         bottom: '190px'
       },
       modelStyle: {
-        right: '90px',
+        right: '120px',
         bottom: '-20px',
         opacity: '0.9'
       },
