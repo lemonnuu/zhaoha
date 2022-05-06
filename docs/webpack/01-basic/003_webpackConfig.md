@@ -95,3 +95,7 @@ npm run build
 :::danger
 在不添加 loader 的情况下, webpack 只能理解 JavaScript 和 JSON 文件，这是 webpack 开箱可用的自带能力, 并不能理解其他任何类型的文件。
 :::
+
+:::danger
+**注意：webpack 不会更改代码中除 `import` 和 `export` 语句以外的部分, 如果需要使用其他 ES6 特性, 必须确保在 webapck 的 loader 系统中使用了一个像是 Babel 的 转译器。**
+:::
