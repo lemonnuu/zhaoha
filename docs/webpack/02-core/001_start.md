@@ -100,6 +100,9 @@ package.json
     "devDependencies": {
       "webpack": "^5.72.0",
       "webpack-cli": "^4.9.2"
+    },
+    "dependencies": {
+      "lodash": "^4.17.21"
     }
   }
 ```
