@@ -1366,3 +1366,5 @@ module.exports = {
 这样一来就可以了。
 
 ## 使用loader打包字体
+
+打包字体就用 file-loader 就可以了。
