@@ -15,6 +15,7 @@ module.exports = [
       ['02-core/001_start', '前言-基础构建配置'],
       ['02-core/002_loader', '使用loader打包静态资源'],
       ['02-core/003_plugins', '使用plugin管控输出'],
+      ['02-core/004_entry-output', 'entry与output基础配置'],
     ]
   },
 ]
