@@ -17,6 +17,7 @@ module.exports = [
       ['02-core/003_plugins', '使用plugin管控输出'],
       ['02-core/004_entry-output', 'entry与output基础配置'],
       ['02-core/005_source-map', 'source-map'],
+      ['02-core/006_webpack-dev-server', 'webpack-dev-server'],
     ]
   },
 ]
