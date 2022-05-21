@@ -19,6 +19,7 @@ module.exports = [
       ['02-core/005_source-map', 'source-map'],
       ['02-core/006_webpack-dev-server', 'webpack-dev-server'],
       ['02-core/007_hot-module-replacement', 'hot module replacement'],
+      ['02-core/008_babel', '使用Babel处理ES6语法'],
     ]
   },
 ]
