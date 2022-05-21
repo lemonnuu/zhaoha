@@ -20,6 +20,7 @@ module.exports = [
       ['02-core/006_webpack-dev-server', 'webpack-dev-server'],
       ['02-core/007_hot-module-replacement', 'hot module replacement'],
       ['02-core/008_babel', '使用Babel处理ES6语法'],
+      ['02-core/009_tree-shaking', 'tree shaking'],
     ]
   },
 ]
