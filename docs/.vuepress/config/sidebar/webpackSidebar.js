@@ -21,6 +21,7 @@ module.exports = [
       ['02-core/007_hot-module-replacement', 'hot module replacement'],
       ['02-core/008_babel', '使用Babel处理ES6语法'],
       ['02-core/009_tree-shaking', 'tree shaking'],
+      ['02-core/010_development-production', 'development与production'],
     ]
   },
 ]
