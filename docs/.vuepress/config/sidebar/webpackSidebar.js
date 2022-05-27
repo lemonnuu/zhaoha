@@ -25,6 +25,7 @@ module.exports = [
       ['02-core/011_environment-variable', '环境变量'],
       ['02-core/012_code-spliting', '代码分割'],
       ['02-core/013_lazy-prefetch-loading', '懒加载与预加载'],
+      ['02-core/014_packageing-analysis', '打包分析'],
     ]
   },
 ]
