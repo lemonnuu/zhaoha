@@ -23,6 +23,7 @@ module.exports = [
       ['02-core/009_tree-shaking', 'tree shaking'],
       ['02-core/010_development-production', 'development与production'],
       ['02-core/011_environment-variable', '环境变量'],
+      ['02-core/012_code-spliting', '代码分割'],
     ]
   },
 ]
