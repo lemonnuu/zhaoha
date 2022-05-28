@@ -27,6 +27,7 @@ module.exports = [
       ['02-core/013_lazy-prefetch-loading', '懒加载与预加载'],
       ['02-core/014_packageing-analysis', '打包分析'],
       ['02-core/015_css-code-spliting', 'CSS文件的代码分割'],
+      ['02-core/016_browser-cache', '浏览器缓存'],
     ]
   },
 ]

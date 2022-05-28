@@ -159,12 +159,12 @@ hash, chunkhash, contenthash 还是有一定区别的:
 
 采用 hash 计算的话, 每一次构建后生成的哈希值都不一样, 即使文件内容压根没有改变, 这样是没办法实现缓存效果的。
 
-:yellow_heart: `[chunkhash]` 和 `[hash]` 不一样, 只有当 chunk 块依赖的代码发生改变时, 它才会变化, 否则其哈希值不会受到影响。
+:yellow_heart: `[chunkhash]` 和 `[hash]` 不一样, 只有当 chunk 块依赖的 CSS 代码发生改变或自身改变时, 它才会变化, 否则其哈希值不会受到影响。
 
-chunkhash 虽然可以实现缓存效果, 但是却不够完美, 如果只是 chunk 块所依赖的很小一部分代码发生改变, 整个 chunk 块都将重新构建, 即使是未改变的部分,
-例如 chunk 块的 js 文件发生改变, 但 css 文件却没有任何变化。
+chunkhash 虽然可以实现缓存效果, 但是却不够完美, **因为同一个 chunk 的 JS 和 CSS(外部引入) 文件共用一个 chunkhash 值**, 任意一种文件内容发生改变, 共用 hash 值改变。
+例如 chunk 块依赖的 CSS 文件发生改变, 但自身文件却没有任何变化。
 
-:green_heart: 这个时候, 就需要用到 `[contenthash]`, 它会对 chunk 更细一步划分为内容 content, 生成 contenthash。
+:green_heart: 这个时候, 就需要用到 `[contenthash]`, 它只与自身文件内容有关, 生成 contenthash, 当自身文件内容不变时, hash 值不变。
 
 ## 每个入口使用多种文件类型
 
