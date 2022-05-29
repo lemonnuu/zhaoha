@@ -31,4 +31,11 @@ module.exports = [
       ['02-core/017_shimming', 'shimming'],
     ]
   },
+  {
+    title: 'webpack实战配置',
+    collapsable: true,
+    children: [
+      ['03-configure/001_library', 'library的打包'],
+    ]
+  },
 ]
