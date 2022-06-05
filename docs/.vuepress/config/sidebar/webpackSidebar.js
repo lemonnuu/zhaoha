@@ -37,6 +37,7 @@ module.exports = [
     children: [
       ['03-configure/001_library', 'library的打包'],
       ['03-configure/002_pwa', 'PWA的打包'],
+      ['03-configure/003_typescript', 'TypeScript的打包'],
     ]
   },
 ]
