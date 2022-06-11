@@ -17,7 +17,7 @@ module.exports = [
         text: '语言基础',
         items: [
           {text: 'HTML/CSS', link: '/none0/', icon: 'reco-document'},
-          {text: 'JS', link: '/none1/', icon: 'reco-document'},
+          {text: 'JS', link: '/JavaScript/02-BOM/001_window', icon: 'reco-document'},
           {text: 'TS', link: '/none2/', icon: 'reco-document'},
           {text: 'node.js', link: '/none3/', icon: 'reco-document'},
         ]
