@@ -6,11 +6,11 @@
       </transition>
 
       <div :class="{ 'hide': firstLoad || !isHasKey }">
-        <Navbar v-if="shouldShowNavbar" @toggle-sidebar="toggleSidebar" />
+        <Navbar v-if="shouldShowNavbar" @toggle-sidebar="toggleSidebar" id="exclude-print-navbar"/>
 
         <div class="sidebar-mask" @click="toggleSidebar(false)"></div>
 
-        <Sidebar :items="sidebarItems" @toggle-sidebar="toggleSidebar">
+        <Sidebar :items="sidebarItems" @toggle-sidebar="toggleSidebar" id="exclude-print-sidebar">
           <PersonalInfo slot="top" />
           <slot name="sidebar-bottom" slot="bottom"/>
         </Sidebar>

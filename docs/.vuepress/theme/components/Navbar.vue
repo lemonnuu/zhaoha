@@ -22,6 +22,7 @@
         'max-width': linksWrapMaxWidth + 'px'
       } : {}">
 
+      <Print />
       <Mode />
       <AlgoliaSearchBox
         v-if="isAlgoliaSearch"
@@ -39,10 +40,11 @@ import SearchBox from '@SearchBox'
 import SidebarButton from '@theme/components/SidebarButton'
 import NavLinks from '@theme/components/NavLinks'
 import Mode from '@theme/components/Mode'
+import Print from '@theme/components/Print'
 import { useInstance } from '@theme/helpers/composable'
 
 export default defineComponent({
-  components: { SidebarButton, NavLinks, SearchBox, AlgoliaSearchBox, Mode },
+  components: { SidebarButton, NavLinks, SearchBox, AlgoliaSearchBox, Mode, Print },
 
   setup (props, ctx) {
     const instance = useInstance()

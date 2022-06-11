@@ -53,7 +53,7 @@
       <Comments v-if="recoShowModule" :isShowComments="shouldShowComments"/>
     </ModuleTransition>
 
-    <ModuleTransition>
+    <ModuleTransition id="exclude-print-sub-sidebar">
       <SubSidebar v-if="recoShowModule" class="side-bar" />
     </ModuleTransition>
   </main>
